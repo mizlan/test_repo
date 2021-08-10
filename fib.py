@@ -1,6 +1,6 @@
 def fib(n):
     if n < 0:
-        raise ValueError
+        return -1
     if n < 2:
         return n
     else:
